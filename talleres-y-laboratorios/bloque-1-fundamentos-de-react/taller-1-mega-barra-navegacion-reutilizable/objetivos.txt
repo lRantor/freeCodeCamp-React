@@ -1,0 +1,67 @@
+Paso 1
+En este taller, practicarás trabajando con componentes funcionales de React construyendo una barra de navegación reutilizable.
+
+Todo el CSS ha sido proporcionado para que puedas enfocarte en crear la barra de navegación.
+
+Comienza definiendo un componente funcional Navbar. En el siguiente paso, comenzarás a desarrollar el componente utilizando JSX.
+
+Asegúrate de usar una exportación nombrada al exportar el componente, ya que se importará en el archivo HTML.
+
+Aquí tienes un ejemplo de una exportación nombrada:
+
+Código de ejemplo
+export function multiply(a, b) {
+  return a * b;
+}
+Además, los componentes funcionales de React deben comenzar con una letra mayúscula porque así es como React los diferencia de los elementos HTML normales.
+
+Paso 2
+Ahora es el momento de construir el componente Navbar utilizando JSX.
+
+Aprendiste en lecciones anteriores que JSX es una extensión de sintaxis para JavaScript que te permite escribir código similar a HTML dentro de JavaScript, facilitando la creación y gestión de componentes React.
+
+Aquí tienes un recordatorio de cómo se ve JSX:
+
+Código de ejemplo
+const App = () => {
+  return (
+    <div>
+      <h1>freeCodeCamp React Curriculum</h1>
+      <p>I love learning with freeCodeCamp!</p>
+    </div>
+  );
+}
+Dentro del componente Navbar, devuelve un elemento nav que tiene un className de navbar.
+
+className se usa aquí en lugar de class porque class es una palabra clave reservada en JavaScript. Por eso, React usa className como una forma de aplicar clases a los elementos.
+
+Paso 3
+Crea un elemento ul dentro de tu elemento nav. Dentro de ese elemento ul, crea tres elementos li.
+
+Paso 4
+Da a los tres elementos li un className de nav-item.
+
+Paso 5
+Crea un elemento a dentro de tu primer elemento li. Dale un atributo href con el valor # y el texto Dashboard.
+
+Paso 6
+Crea otro elemento a dentro de tu segundo elemento li. Dale un atributo href con el valor # y el texto Widgets.
+
+Paso 7
+Dentro de tu tercer elemento li, crea un elemento button con un atributo aria-expanded de false. Además, establece el texto del button como Apps.
+
+El atributo aria-expanded comunicará a los usuarios de lectores de pantalla que el botón activa un submenú expandible.
+
+Paso 8
+Todavía dentro de tu tercer elemento li, crea un elemento ul para el popup. Asígnale un className de sub-menu y un aria-label de Apps.
+
+Paso 9
+Crea tres nuevos elementos li dentro de tu elemento ul con un className de sub-menu.
+
+Paso 10
+Dentro de cada uno de los tres nuevos elementos li, crea un elemento a con un atributo href de #.
+
+Paso 11
+Para terminar, establece el texto del primer elemento a en Calendar, el segundo en Chat y el tercero en Email.
+
+Con eso, tu componente Navbar está completo.
