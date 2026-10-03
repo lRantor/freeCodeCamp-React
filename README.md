@@ -14,13 +14,13 @@ A continuación se desglosará como va a estar compuesto este repositorio.
 
 ## 1. Descripción de los talleres y laboratorios
 
-En el directorio `freeCodeCamp/talleres-y-laboratorios` se irán recopilando los diversos retos de desarrollo de código que se nos plantean mientras se estudia la parte teórica del curso con contenido lectivo o Quiz, para consolidar la lectura y los conocimientos adquiridos. 
+En el directorio `freeCodeCamp-React/talleres-y-laboratorios` se irán recopilando los diversos retos de desarrollo de código que se nos plantean mientras se estudia la parte teórica del curso con contenido lectivo o Quiz para consolidar la lectura y los conocimientos adquiridos.
 
 Son muchos a lo largo de todo el curso, por lo que la descripción, objetivos y pruebas de cada uno se detallarán en el propio directorio del taller o laboratorio al acceder a ellos.
 
 ## 2. Descripción de los proyectos finales
 
-En el directorio `freeCodeCamp/proyectos-finales` se irán recopilando los proyectos finales requeridos para la evaluación y posterior acceso al examen de evaluación final del curso.
+En el directorio `freeCodeCamp-React/proyectos-finales` se irán recopilando los proyectos finales requeridos para la evaluación y posterior acceso al examen de evaluación final del curso.
 
 A continuación, se indicarán las historias de usuario y pruebas de cada uno. También se podrá encontrar en el directorio de cada propio proyecto.
 
